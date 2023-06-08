@@ -1,0 +1,117 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+.header {
+  margin: 0 2.5rem;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft,
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+a > span {
+  margin: 0 30px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+}
+
+a > span:hover {
+  color: red;
+}
+
+.header__icon {
+  width: 80px;
+  cursor: pointer;
+}
+
+.user__avatar {
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 52%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+  .header {
+    margin: 0 1.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+  }
+  a > span {
+    margin: 0 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+  }
+  .header__icon {
+    width: 60px;
+    cursor: pointer;
+  }
+  .user__avatar {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 396px) {
+  html {
+    font-size: 45%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+  .header {
+    margin: 0 1.2rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+  }
+  a > span {
+    margin: 0 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+  }
+  .header__icon {
+    width: 50px;
+    cursor: pointer;
+  }
+}
